@@ -90,3 +90,9 @@ a {
 #tools > div > h3 {
 	font-family: "PT Sans", sans-serif;
 }
+
+#footer {
+	background-color: black;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
