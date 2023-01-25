@@ -38,6 +38,7 @@ a {
 #main-image {
 	max-width: 30%;
 	z-index: 2;
+	display: none;
 }
 
 /* Styling for overlay */
@@ -53,7 +54,7 @@ a {
 
 #landing-text {
 	position: relative;
-	margin-top: 2%;
+	margin-top: 15%;
 }
 
 @media (min-width: 992px) {
@@ -79,6 +80,7 @@ a {
 		bottom: 0;
 		right: 10%;
 		z-index: 2;
+		display: inline-block;
 	}
 }
 
