@@ -98,3 +98,17 @@ a {
 	padding-top: 15px;
 	padding-bottom: 15px;
 }
+
+/*makes navbar collapse horizontal on small screen */
+.navbar-nav {
+  flex-flow: row nowrap;
+}
+
+.navbar {
+    flex-flow: row nowrap;
+    display: inline-flex;
+}
+
+#landing {
+	min-height: 100vh;
+}

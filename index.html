@@ -22,7 +22,8 @@
 	<!-- External CSS -->
 	<link rel="stylesheet" type="text/css" href="./index.css">
 
-	<title></title>
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+	<title>Miggy Atienza - Web Developer</title>
 </head>
 <body class="text-light">
 
@@ -50,16 +51,16 @@
 			<!-- Main Links Start -->
 			<div class="justify-content-center">
 				<ul class="navbar-nav">
-					<li class="nav-item">
+					<li class="nav-item mx-sm-3 mx-lg-0">
 						<a class="nav-link" href="#landing">About Me</a>
 					</li>
-					<li class="nav-item">
+					<li class="nav-item mx-sm-3 mx-lg-0">
 						<a class="nav-link" href="#projects">Projects</a>
 					</li>
-					<li class="nav-item">
+					<li class="nav-item mx-sm-3 mx-lg-0">
 						<a class="nav-link" href="#gallery">Gallery</a>
 					</li>
-					<li class="nav-item">
+					<li class="nav-item mx-sm-3 mx-lg-0">
 						<a class="nav-link" href="#contact">Contact</a>
 					</li>
 				</ul>
@@ -68,19 +69,19 @@
 
 			<!-- Social Media Links Start -->
 			<div class="justify-content-center ml-lg-auto">
-				<a href="https://www.facebook.com/thenameismiggy/">
+				<a class="mx-sm-3 mx-lg-0" href="https://www.facebook.com/thenameismiggy/">
 					<i class="px-lg-2 fab fa-facebook"></i>
 				</a>
-				<a href="mailto:miguelroyatienza@gmail.com">
+				<a class="mx-sm-3 mx-lg-0" href="mailto:miguelroyatienza@gmail.com">
 					<i class="px-lg-2 far fa-envelope"></i>
 				</a>
-				<a href="https://github.com/thenameismiggy">
+				<a class="mx-sm-3 mx-lg-0" href="https://github.com/thenameismiggy">
 					<i class="px-lg-2 fab fa-github"></i>
 				</a>
-				<a href="https://gitlab.com/thenameismiggy">
+				<a class="mx-sm-3 mx-lg-0" href="https://gitlab.com/thenameismiggy">
 					<i class="px-lg-2 fab fa-gitlab"></i>
 				</a>
-				<a href="https://www.linkedin.com/in/miguelroyatienza/">
+				<a class="mx-sm-3 mx-lg-0" href="https://www.linkedin.com/in/miguelroyatienza/">
 					<i class="px-lg-2 fab fa-linkedin"></i>
 				</a>
 			</div>
@@ -93,7 +94,7 @@
 	<!-- Navbar Section End -->
 
 	<!-- About Me Section Start -->
-	<div id="landing" class="row container-fluid text-left">
+	<div id="landing" class="row container-fluid text-left mb-5">
 		<img class="mt-sm-5 mt-lg-0" id="main-image" src="./images/main-image.png">
 		<div id="landing-text" class="col-lg-8 col-md-7">
 			<h1>Miguel Roy Atienza</h1>
@@ -102,7 +103,7 @@
 			<p>With the help of Zuitt Coding Bootcamp, I've since then been acquainted with the following tools:</p>
 
 			<div id="tools" class="row text-center mt-3">
-				<div class="col-lg-3 col-md-4">
+				<div class="col-sm-4 col-lg-3 col-md-4">
 					<h3>Front End</h3>
 					<div class="row">
 						<div class="col-6">
@@ -119,7 +120,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-4">
+				<div class="col-sm-4 col-lg-3 col-md-4">
 					<h3>Back End</h3>
 					<div class="row">
 						<div class="col-6">
@@ -136,7 +137,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-4">
+				<div class="col-sm-4 col-lg-3 col-md-4">
 					<h3>Other Tools</h3>
 					<div class="row">
 						<div class="col-6">
@@ -246,28 +247,7 @@
 						<label for="message">Message</label>
 						<textarea class="form-control" id="message" rows="5"></textarea>
 					</div>
-					<button data-toggle="modal" data-target="#stretchgoal" type="button" class="btn btn-dark">Send Email</button>
-
-					<!-- Modal Start -->
-					<div class="modal fade text-dark" id="stretchgoal" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-					  <div class="modal-dialog">
-					    <div class="modal-content">
-					      <div class="modal-header">
-					        <h5 class="modal-title" id="staticBackdropLabel">Thank you for contacting us!</h5>
-					        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					          <span aria-hidden="true">&times;</span>
-					        </button>
-					      </div>
-					      <div class="modal-body">
-					        Message Successfully Sent
-					      </div>
-					      <div class="modal-footer">
-					        <button type="button" class="btn" data-dismiss="modal">Close</button>
-					      </div>
-					    </div>
-					  </div>
-					</div>
-					<!-- Modal End -->
+					<button onclick="window.location.href='mailto:miguelroyatienza@gmail.com'" type="button" class="btn btn-dark">Send Email</button>
 				</form>
 			</div>
 		</div>
